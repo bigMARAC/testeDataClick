@@ -44,15 +44,15 @@ Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/altera
 * ***Publicar projeto funcionando no Heroku;
 
 #### Inicializar a Apliação:
-Questao 04/web/
+Questao04/web/
 ```
 npm install
 ```
-Questao 04/web/
+Questao04/web/
 ```
 npm run serve
 ```
-Questao 04/api/
+Questao04/api/
 ```
 php -S HOST:Porta
 ```
