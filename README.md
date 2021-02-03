@@ -52,7 +52,7 @@ Questao 04/web/
 ```
 npm run serve
 ```
-Qeustao 04/api/
+Questao 04/api/
 ```
 php -S HOST:Porta
 ```
