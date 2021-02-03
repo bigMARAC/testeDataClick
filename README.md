@@ -43,6 +43,20 @@ Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/altera
 * **Teste Automatizado;
 * ***Publicar projeto funcionando no Heroku;
 
+#### Inicializar a Apliação:
+Questao 04/web/
+```
+npm install
+```
+Questao 04/web/
+```
+npm run serve
+```
+Qeustao 04/api/
+```
+php -S HOST:Porta
+```
+
 ## 🔥 Questão 05
 
 #### Descrição:
