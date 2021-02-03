@@ -1,10 +1,11 @@
 <?php
 include_once('config.php');
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: DELETE');
 if ($_SERVER['REQUEST_METHOD'] == "DELETE") {
 	$id = isset($_GET['id']) ? mysqli_real_escape_string($conn, $_GET['id']) :  "";
 
-	$sql = "DELETE FROM `todo_db`.`tasks` WHERE id='{$id}'";
+	$sql = "DELETE FROM `todo_db`.`tasks` WHERE id='$id'";
 	$delete_data_query = mysqli_query($conn, $sql);
 
 	if ($delete_data_query) {

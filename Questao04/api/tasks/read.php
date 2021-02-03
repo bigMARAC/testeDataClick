@@ -1,5 +1,6 @@
 <?php
 include_once('config.php');
+header('Access-Control-Allow-Origin: *', 'Access-Control-Allow-Methods: GET,PUT,POST,DELETE');
 $sql = "SELECT * FROM `todo_db`.`tasks` ORDER BY priority";
 $get_data_query = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
@@ -8,9 +9,9 @@ if (mysqli_num_rows($get_data_query) != 0) {
 
 	while ($r = mysqli_fetch_array($get_data_query)) {
 		extract($r);
-		$result[] = array("Title" => $title, "Description" => $description, 'Priority' => $priority, 'Id' => $id);
+		$result[] = array("title" => $title, "description" => $description, 'priority' => $priority, 'id' => $id);
 	}
-	$json = array("info" => $result);
+	$json = ($result);
 } else {
 	$json = array("erro" => "ID Inválido");
 }

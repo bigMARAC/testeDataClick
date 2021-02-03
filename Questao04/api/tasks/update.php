@@ -1,8 +1,9 @@
 <?php
 include_once('config.php');
-
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: Content-Type");
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $id = isset($_GET['id']) ? mysqli_real_escape_string($conn, $_GET['id']) :  "";
+    $id = isset($_POST['id']) ? mysqli_real_escape_string($conn, $_POST['id']) :  "";
 
     $sql = "SELECT * FROM `todo_db`.`tasks` WHERE id={$id}";
     $get_data_query = mysqli_query($conn, $sql) or die(mysqli_error($conn));
@@ -15,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $newPriority = isset($_POST['priority']) ? mysqli_real_escape_string($conn, $_POST['priority']) : $priority;
 
 
-    $sql = "UPDATE `todo_db`.`tasks` SET title='{$newTitle}', description='{$newDescription}', priority='{$newPriority}' WHERE id='{$id}'";
+    $sql = "UPDATE `todo_db`.`tasks` SET title = '{$newTitle}', description = '{$newDescription}', priority = '{$newPriority}' WHERE id = '{$id}'";
     $update_data_query = mysqli_query($conn, $sql);
 
     if ($update_data_query) {

@@ -1,8 +1,11 @@
 <?php
 include_once('config.php');
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: Content-Type");
+
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-
+	var_dump($_POST);
 	$title = isset($_POST['title']) ? mysqli_real_escape_string($conn, $_POST['title']) : "";
 	$description = isset($_POST['description']) ? mysqli_real_escape_string($conn, $_POST['description']) : "";
 	$priority = isset($_POST['priority']) ? mysqli_real_escape_string($conn, $_POST['priority']) : "";
