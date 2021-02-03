@@ -6,7 +6,7 @@ Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 i
 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
 ```php
-if (isset($_SESSION['loggedin']) && $_SESSIO ['loggedin'] == true) {
+if (isset($_SESSION['loggedin']) && $_SESSION ['loggedin'] == true) {
     header("Location: http://www.google.com");
     exit();
 } elseif (isset($_COOKIE['Loggedin']) && $_COOKIE['Loggedin'] == true) {
