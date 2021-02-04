@@ -33,10 +33,10 @@
       </v-list-item-icon>
     </v-list-item>
 
-    <v-dialog v-model="dialog" max-width="500px">
+    <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>
-          <span class="headline">zap</span>
+          <span class="headline">Lista de Tarefas</span>
         </v-card-title>
 
         <v-card-text method="post">
