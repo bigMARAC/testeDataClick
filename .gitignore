@@ -23,3 +23,5 @@ pnpm-debug.log*
 *.sw?
 
 Questao04/web/src/config/config.json
+Questao05/api/src/config/db.js
+Questao05/www/src/config/config.json
