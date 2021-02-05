@@ -44,15 +44,15 @@ Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/altera
 * ***Publicar projeto funcionando no Heroku;
 
 #### Inicializar a Apliação:
-Questao04/web/
+`Questao04/web/`
 ```
 npm install
 ```
-Questao04/web/
+`Questao04/web/`
 ```
 npm run serve
 ```
-Questao04/api/
+`Questao04/api/`
 ```
 php -S HOST:Porta
 ```
@@ -67,18 +67,37 @@ PHP com algum framework de desenvolvimento. Para o banco de dados, usar PostgreS
 
 #### Requisitos:
 #### 1. Crie uma tela para cadastrar um clube de futebol.
- * Esta tela deve conter somente o campo “Nome do clube”.
+ * Esta tela deve conter somente o campo “Nome do clube”. ☑️
 #### 2. Crie uma tela para listar os clubes cadastrados.
-* A listagem dos clubes cadastrados deve estar em ordem alfabéca.
-* Essa tela deve ser capaz de excluir o clube cadastrado.
+* A listagem dos clubes cadastrados deve estar em ordem alfabéca. ☑️
+* Essa tela deve ser capaz de excluir o clube cadastrado. ☑️
 #### 3. Crie uma tela para cadastrar um sócio.
-* Esta tela deve conter o campo “Nome completo” e o campo “Clube” para a associação deste sócio. Os clubes são os cadastrados no passo 1.
-* O sócio poderá estar associado à mais de um clube.
+* Esta tela deve conter o campo “Nome completo” e o campo “Clube” para a associação deste sócio. Os clubes são os cadastrados no passo 1. ☑️
+* O sócio poderá estar associado à mais de um clube. ☑️
 #### 4. Crie uma tela para listar os sócios criados.
-* Esta listagem deve constar todos os sócios cadastrados e constar o clube na qual o sócio está associado.
-* A listagem deve estar por ordem alfabéca de clube, depois por sócio.
-* Essa tela deve ser capaz de excluir o sócio.
+* Esta listagem deve constar todos os sócios cadastrados e constar o clube na qual o sócio está associado. ☑️
+* A listagem deve estar por ordem alfabéca de clube, depois por sócio. ☑️
+* Essa tela deve ser capaz de excluir o sócio. ☑️
 #### 5. Publicar projeto funcionando no Heroku.
+#### Inicializar a Apliação:
+`Questao05/www/`
+```
+npm install
+```
+`Questao05/www/`
+```
+npm run serve
+```
+`Questao05/api/`
+```
+npm install
+```
+`Questao5/api/`
+```
+npm run
+```
+
+
 &nbsp; 
 ### Comentários ao avaliador
 *A interface drag and drop mostrou-se complexa de se fazer, pretende-se terminá-la
