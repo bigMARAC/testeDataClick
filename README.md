@@ -94,7 +94,7 @@ npm install
 ```
 `Questao5/api/`
 ```
-npm run
+npm run serve
 ```
 
 
