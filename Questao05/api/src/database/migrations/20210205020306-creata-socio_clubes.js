@@ -2,28 +2,6 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('clubes', {
-      id: {
-        type: Sequelize.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
-        allowNull: false
-      },
-      name: {
-        type: Sequelize.STRING,
-        allowNull: false
-      }
-    });
-  },
-
-  down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('users');
-  }
-};
-'use strict';
-
-module.exports = {
-  up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('socio_clubes', {
       id: {
         type: Sequelize.INTEGER,
