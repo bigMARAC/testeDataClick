@@ -44,6 +44,8 @@ Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/altera
 * ***Publicar projeto funcionando no Heroku;
 
 #### Inicializar a Apliação:
+Crie um arquivo chamado `config.json` em `Questao04/web/src/` seguindo o exemplo de `Questao04/web/src/config-example.json`.
+
 `Questao04/web/`
 ```
 npm install
@@ -52,6 +54,8 @@ npm install
 ```
 npm run serve
 ```
+Crie um arquivo chamado `config.php` em `Questao04/api/tasks/` seguindo o exemplo de `Questao04/api/tasks/config-example.php`.
+
 `Questao04/api/`
 ```
 php -S HOST:Porta
@@ -79,7 +83,10 @@ PHP com algum framework de desenvolvimento. Para o banco de dados, usar PostgreS
 * A listagem deve estar por ordem alfabéca de clube, depois por sócio. ☑️
 * Essa tela deve ser capaz de excluir o sócio. ☑️
 #### 5. Publicar projeto funcionando no Heroku.
+
 #### Inicializar a Apliação:
+Crie um arquivo chamado `config.json` em `Questao05/www/src/config/` seguindo o exemplo de `Questao05/web/src/config/config-example.json`.
+
 `Questao05/www/`
 ```
 npm install
@@ -88,6 +95,8 @@ npm install
 ```
 npm run serve
 ```
+Crie um arquivo chamado `db.js` em `Questao05/api/src/config/` seguindo o exemplo de `Questao05/api/src/config/db-example.js`.
+
 `Questao05/api/`
 ```
 npm install
