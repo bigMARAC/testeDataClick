@@ -54,7 +54,7 @@ npm install
 ```
 npm run serve
 ```
-Crie um arquivo chamado `config.php` em `Questao04/api/tasks/` seguindo o exemplo de `Questao04/api/tasks/config-example.php`.
+Crie um arquivo chamado `config.php` em `Questao04/api/tasks/` seguindo o exemplo de `Questao04/api/tasks/config-example.php`. Crie um banco de dados MySQL utilizando o sql em `Questao04/api/todo_db.sql`.
 
 `Questao04/api/`
 ```
