@@ -11,3 +11,4 @@ app.use(cors())
 app.use(routes)
 
 app.listen(3333)
+console.log('🚀 Aplicação rodando na porta 3333')
